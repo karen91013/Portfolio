@@ -39,6 +39,10 @@
   padding-top: 30px;
 }
 
+.padding_top_min {
+  padding-top: 10px;
+}
+
 .more_padding{
   padding-top: 18px;
 }
@@ -89,6 +93,11 @@ body {
 
 .dark_green{
   background-color: #648C60;
+}
+
+.button_padding{
+  padding-top: 25px;
+  padding-bottom: 35px;
 }
 
 .k_button{

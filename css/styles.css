@@ -18,12 +18,13 @@
 
 .navbar .navbar-collapse {
   text-align: center;
-  font-size: 25px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 
 .padding_right {
-    padding-right: 45px;
+    padding-right: 30px;
 }
 
 .padding_left {
@@ -35,7 +36,7 @@
 }*/
 
 .padding_top {
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .more_padding{
@@ -56,7 +57,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 250px;
+  margin-bottom: 200px;
 }
 .footer {
   position: absolute;
@@ -65,23 +66,7 @@ body {
   /* Set the fixed height of the footer here */
   height: 140px;
 }
-.pre_footer {
-  position: absolute;
-  bottom: 140px;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 80px;
-}
-.pre_footer .btn-default{
-  color: #FFF;
-  border: none;
-  height: 45px;
-  padding-top: 7px;
-  font-size: 20px;
-}
-.pre_footer .btn-default:hover{
-background-color: #999999;
-}
+
 .button_padding{
   padding-top: 18px;
 }
@@ -93,12 +78,31 @@ background-color: #999999;
   background-color: #999999;
 }
 
+.grey_font{
+  color: #999999;
+  font-weight: 300;
+}
+
 .light_green{
   background-color: #D0E9d7;
 }
 
 .dark_green{
   background-color: #648C60;
+}
+
+.k_button{
+  background-color: #FFF;
+  border-color: #89CC9C;
+  color: #006633;
+  border-width: 2px;
+  font-size: 15px;
+}
+
+.k_button:hover{
+  background-color: #89CC9C;
+  border-color: #89CC9C;
+  color: #006633;
 }
 
 @media (max-width: 768px) {

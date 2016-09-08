@@ -1,0 +1,133 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #2d3c49;
+}
+
+
+
+.container-fluid,
+.row {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-default{
+  background-color: white;
+  border: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  font-size: 25px;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    color: #7d97ad; 
+    background-color: #7d97ad; /* Modern Browsers */
+/*    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+.padding_right {
+    padding-right: 45px;
+}
+
+.padding_left {
+    padding-left: 50px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.padding_top {
+  padding-top: 10px;
+}
+
+.more_padding{
+  padding-top: 18px;
+}
+
+.icon_padding{
+  padding-right: 10px;
+}
+
+.s_icon_padding{
+  padding-right: 5px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 250px;
+}
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 140px;
+}
+.pre_footer {
+  position: absolute;
+  bottom: 140px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+}
+.pre_footer .btn-default{
+  color: #FFF;
+  border: none;
+  height: 45px;
+  padding-top: 7px;
+  font-size: 20px;
+}
+.pre_footer .btn-default:hover{
+background-color: #999999;
+}
+.button_padding{
+  padding-top: 18px;
+}
+.green{
+  background-color: #89CC9C;
+}
+
+.grey{
+  background-color: #999999;
+}
+
+.light_green{
+  background-color: #D0E9d7;
+}
+
+.dark_green{
+  background-color: #648C60;
+}
+
+@media (max-width: 768px) {
+  .xs_center{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .padding_left{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .padding_right{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+

@@ -71,9 +71,6 @@ body {
   height: 140px;
 }
 
-.button_padding{
-  padding-top: 18px;
-}
 .green{
   background-color: #89CC9C;
 }
@@ -97,7 +94,7 @@ body {
 
 .button_padding{
   padding-top: 25px;
-  padding-bottom: 35px;
+  padding-bottom: 38px;
 }
 
 .k_button{
